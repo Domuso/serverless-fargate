@@ -99,6 +99,7 @@ module.exports = {
                 container: { type: 'object' },
                 service: { type: 'object' },
               },
+              sidecar: { type: 'object' },
             },
           },
           additionalProperties: false,

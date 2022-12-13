@@ -46,6 +46,7 @@ const parseTask = (global, name, task) => {
         ...get(task, 'cloudFormationResource.service', {}),
       },
     },
+    sidecar: [ ...task.sidecar || []],
   };
 
   if (task.schedule) {
